@@ -1,0 +1,48 @@
+name: pokedex
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  material_floating_search_bar: ^0.3.4
+
+  infinite_widgets: ^2.0.0
+  dartz: ^0.10.0-nullsafety.2
+  dio: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "lib/assets/icon/icon.png"
+  image_path_android: "lib/assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PokeGoTypes
+      fonts: 
+        - asset: lib/assets/fonts/PokeGOTypes.ttf
+
+    - family: Pokemon
+      fonts:
+        # - asset: lib/assets/fonts/Pokemon Hollow.ttf
+        - asset: lib/assets/fonts/Pokemon Solid.ttf
+
+  assets:
+    - lib/assets/images/
+

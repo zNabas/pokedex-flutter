@@ -44,5 +44,5 @@ flutter:
         - asset: lib/assets/fonts/Pokemon Solid.ttf
 
   assets:
-    - lib/assets/images/
+    - lib/assets/icon/
 
